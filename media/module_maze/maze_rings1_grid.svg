@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 135">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #488124;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke: red;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="maze_rings1_grid" transform="translate(-1443 -55)">
+    <rect id="Rectangle_162" data-name="Rectangle 162" class="cls-1" width="135" height="135" transform="translate(1443 55)"/>
+    <g id="Ellipse_46" data-name="Ellipse 46" class="cls-2" transform="translate(1448 81)">
+      <circle class="cls-4" cx="10" cy="10" r="10"/>
+      <circle class="cls-1" cx="10" cy="10" r="9"/>
+    </g>
+    <g id="Ellipse_47" data-name="Ellipse 47" class="cls-2" transform="translate(1553 102)">
+      <circle class="cls-4" cx="10" cy="10" r="10"/>
+      <circle class="cls-1" cx="10" cy="10" r="9"/>
+    </g>
+    <path id="Path_21" data-name="Path 21" class="cls-3" d="M1477.093-663.594h-22.039v62.534h83.983v21.981h-21.091v25.062" transform="translate(13 744)"/>
+    <path id="Path_22" data-name="Path 22" class="cls-3" d="M1455.054-621.5h21.606" transform="translate(13 744)"/>
+    <path id="Path_23" data-name="Path 23" class="cls-3" d="M1497.5-689v45.787h41.415" transform="translate(13 744)"/>
+    <path id="Path_24" data-name="Path 24" class="cls-3" d="M1565-663.594h-47.388" transform="translate(13 744)"/>
+    <path id="Path_25" data-name="Path 25" class="cls-3" d="M1476.66-643.213H1497.5v21.818" transform="translate(13 744)"/>
+    <path id="Path_26" data-name="Path 26" class="cls-3" d="M1518.208-601.25v-19.694h21.487" transform="translate(13 744)"/>
+    <path id="Path_27" data-name="Path 27" class="cls-3" d="M1497.5-601.25v23.089" transform="translate(13 744)"/>
+    <path id="Path_28" data-name="Path 28" class="cls-3" d="M1476.66-554v-25.5H1454.4" transform="translate(13 744)"/>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 190">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d6d6d6;
+      }
+
+      .cls-2 {
+        fill: #878686;
+      }
+
+      .cls-3 {
+        fill: #444;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        stroke: red;
+        stroke-width: 6px;
+      }
+
+      .cls-5 {
+        fill: rgba(255,0,0,0);
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+
+      .cls-7 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Module_button" transform="translate(-12 -14)">
+    <g id="bg">
+      <path id="Path_15" data-name="Path 15" class="cls-1" d="M0,0H190V190H0Z" transform="translate(12 14)"/>
+      <rect id="Rectangle_95" data-name="Rectangle 95" class="cls-2" width="30" height="30" transform="translate(167 19)"/>
+      <circle id="Ellipse_43" data-name="Ellipse 43" class="cls-3" cx="12" cy="12" r="12" transform="translate(170.202 22.072)"/>
+    </g>
+    <g id="button" class="cls-4" transform="translate(32 49)">
+      <circle class="cls-6" cx="60" cy="60" r="60"/>
+      <circle class="cls-7" cx="60" cy="60" r="63"/>
+    </g>
+    <rect id="strip_display" width="25" height="120" transform="translate(169 62)"/>
+    <rect id="strip_color" class="cls-5" width="25" height="120" transform="translate(169 62)"/>
+  </g>
+</svg>

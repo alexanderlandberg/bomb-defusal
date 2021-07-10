@@ -1,0 +1,29 @@
+.wire_sequences_container {
+
+    .right_overlay,
+    .left_overlay {
+        position: absolute;
+        width: 55.5px;
+        height: 110px;
+        top: 45px;
+        background-color: #444444;
+        transform: scaleX(1);
+        transition: transform 0.3s linear;
+    }
+
+
+    .right_overlay {
+        left: 30px;
+        transform-origin: 0 50%;
+    }
+
+    .left_overlay {
+        left: 85px;
+        transform-origin: 100% 50%;
+    }
+
+    .wire_and_panel_ani {
+        transform: translate(-1176px, -1px) scale(0.6);
+        transform-origin: 666% 60%;
+    }
+}

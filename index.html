@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Keep Talking And Nobody Explodes</title>
+  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/all-styles.css" />
+</head>
+
+<body>
+  <div id="ui">
+    <div id="ui-container">
+      <p id="title">Keep talking and nobody explodes</p>
+      <p class="ui_body_text">Select random or create your own</p>
+      <div class="col-wrapper">
+        <div id="select_random" class="col-1_2" onclick="selectGameMode(this)">
+          <div class="selected_indicator"></div>
+          <p>Random</p>
+        </div>
+        <div id="select_create" class="col-1_2" onclick="selectGameMode(this)">
+          <div class="selected_indicator"></div>
+          <p>Create your own</p>
+        </div>
+      </div>
+      <div id="random_chooser" class="hide">
+        <p class="ui_body_text">Choose the level of the bomb</p>
+        <div class="col-wrapper">
+          <div id="lvl_easy" class="col-1_3" onclick="selectGameMode(this)">
+            <div class="selected_indicator"></div>
+          </div>
+          <div id="lvl_normal" class="col-1_3" onclick="selectGameMode(this)">
+            <div class="selected_indicator"></div>
+          </div>
+          <div id="lvl_hard" class="col-1_3" onclick="selectGameMode(this)">
+            <div class="selected_indicator"></div>
+          </div>
+        </div>
+      </div>
+      <div id="create_chooser" class="hide">
+        <p class="ui_body_text">Choose the amount of minutes</p>
+        <div class="slidecontainer">
+          <input type="range" min="1" max="9" value="5" class="slider" id="timer_minute_range">
+          <p><span id="timer_minute_amount"></span></p>
+        </div>
+        <p class="ui_body_text">Choose modules</p>
+        <div>
+          <div id="module_list">
+            <ul>
+              <li><span>0</span><span onclick="minusOneModule(wireModule, this)">-</span> Wires <span onclick="plusOneModule(wireModule, this)">+</span></li>
+              <li><span>0</span><span onclick="minusOneModule(buttonModule, this)">-</span> Button <span onclick="plusOneModule(buttonModule, this)">+</span></li>
+              <li><span>0</span><span onclick="minusOneModule(complicatedWiresModule, this)">-</span> Complicated Wires <span onclick="plusOneModule(complicatedWiresModule, this)">+</span></li>
+              <li><span>0</span><span onclick="minusOneModule(morseCodeModule, this)">-</span> Morse Code <span onclick="plusOneModule(morseCodeModule, this)">+</span></li>
+              <li><span>0</span><span onclick="minusOneModule(memoryModule, this)">-</span> Memory <span onclick="plusOneModule(memoryModule, this)">+</span></li>
+              <li><span>0</span><span onclick="minusOneModule(whosOnFirstModule, this)">-</span> Who's On First <span onclick="plusOneModule(whosOnFirstModule, this)">+</span></li>
+              <li><span>0</span><span onclick="minusOneModule(keypadsModule, this)">-</span> Keypads <span onclick="plusOneModule(keypadsModule, this)">+</span></li>
+              <li><span>0</span><span onclick="minusOneModule(simonSaysModule, this)">-</span> Simon Says <span onclick="plusOneModule(simonSaysModule, this)">+</span></li>
+              <li><span>0</span><span onclick="minusOneModule(passwordModule, this)">-</span> Password <span onclick="plusOneModule(passwordModule, this)">+</span></li>
+              <li><span>0</span><span onclick="minusOneModule(mazeModule, this)">-</span> Maze <span onclick="plusOneModule(mazeModule, this)">+</span></li>
+              <li><span>0</span><span onclick="minusOneModule(wireSequencesModule, this)">-</span> Wire Sequences <span onclick="plusOneModule(wireSequencesModule, this)">+</span></li>
+            </ul>
+            <p class="ui_body_text"><span>0</span>/11 modules selected</p>
+          </div>
+        </div>
+      </div>
+      <div id="start_container" class="hide">
+        <div id="start_button" onclick="bombReady()">
+          Start bomb
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bomb_container">
+    <div class="cube">
+      <div class="cube__face cube__face--front">
+        <div id="front_module_container" class="module_container">
+          <div id="bomb_display">
+            <img src="media/bomb_controls/bomb-display.svg" alt="bomb display background" />
+            <p id="strikes"></p>
+            <p id="countdown_bg">88:88</p>
+            <p id="countdown"></p>
+          </div>
+        </div>
+      </div>
+      <div class="cube__face cube__face--front_2"></div>
+      <div class="cube__face cube__face--back">
+        <div id="back_module_container" class="module_container"></div>
+      </div>
+      <div class="cube__face cube__face--right">
+        <div class="components"></div>
+      </div>
+      <div class="cube__face cube__face--left">
+        <div class="components"></div>
+      </div>
+      <div class="cube__face cube__face--top">
+        <div class="components"></div>
+      </div>
+      <div class="cube__face cube__face--bottom">
+        <div class="components"></div>
+      </div>
+      <div id="congratz">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="bomb_controls">
+    <div id="bomb_turner">
+      <div class="arr">
+        <img src="media/bomb_controls/arrow.svg" />
+      </div>
+      <div class="arr">
+        <img src="media/bomb_controls/arrow.svg" />
+      </div>
+      <div class="arr">
+        <img src="media/bomb_controls/arrow.svg" />
+      </div>
+      <div class="arr">
+        <img src="media/bomb_controls/arrow.svg" />
+      </div>
+      <div class="handle"></div>
+      <div class="stick"></div>
+    </div>
+    <div id="bomb_flip">
+      <img src="media/bomb_controls/flip_bomb_icon.png" alt="flip bomb" onclick="flipBomb()" />
+    </div>
+  </div>
+  <script src="js/bomb_turner.js"></script>
+  <script src="js/svg.js"></script>
+  <script src="js/modules.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/createBomb.js"></script>
+</body>
+
+</html>

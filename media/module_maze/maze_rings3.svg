@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 135">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #488124;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="maze_rings3" transform="translate(-1443 -55)">
+    <rect id="Rectangle_162" data-name="Rectangle 162" class="cls-1" width="135" height="135" transform="translate(1443 55)"/>
+    <g id="Ellipse_46" data-name="Ellipse 46" class="cls-2" transform="translate(1511 123)">
+      <circle class="cls-3" cx="10" cy="10" r="10"/>
+      <circle class="cls-1" cx="10" cy="10" r="9"/>
+    </g>
+    <g id="Ellipse_47" data-name="Ellipse 47" class="cls-2" transform="translate(1553 123)">
+      <circle class="cls-3" cx="10" cy="10" r="10"/>
+      <circle class="cls-1" cx="10" cy="10" r="9"/>
+    </g>
+  </g>
+</svg>

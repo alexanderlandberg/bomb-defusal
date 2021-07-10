@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.505 82">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #707070;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #707070;
+      }
+
+      .cls-3, .cls-7 {
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        fill: #bfbfbf;
+      }
+
+      .cls-5 {
+        fill: #f0a42a;
+      }
+
+      .cls-6 {
+        fill: #404040;
+      }
+
+      .cls-7, .cls-9 {
+        fill: none;
+      }
+
+      .cls-7 {
+        stroke: #fff;
+      }
+
+      .cls-8 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="_9V_Battery" data-name="9V Battery" transform="translate(52.984 934)">
+    <g id="Battery_Container" data-name="Battery Container" transform="translate(-52.984 -934)">
+      <g id="Rectangle_54" data-name="Rectangle 54" class="cls-1">
+        <rect class="cls-8" width="53.505" height="82" rx="12"/>
+        <rect class="cls-9" x="0.5" y="0.5" width="52.505" height="81" rx="11.5"/>
+      </g>
+      <rect id="Rectangle_55" data-name="Rectangle 55" class="cls-2" width="12.605" height="3.067" transform="translate(11.45 0.689)"/>
+      <rect id="Rectangle_61" data-name="Rectangle 61" class="cls-2" width="12.605" height="3.067" transform="translate(30.45 0.689)"/>
+      <rect id="Rectangle_56" data-name="Rectangle 56" class="cls-3" width="17.589" height="3.134" transform="translate(17.958 77.176)"/>
+    </g>
+    <g id="Battery_2" data-name="Battery 2" transform="translate(-46 -929.555)">
+      <rect id="Rectangle_52" data-name="Rectangle 52" class="cls-4" width="34.381" height="3.445" rx="1" transform="translate(2.756 3.067)"/>
+      <rect id="Rectangle_51" data-name="Rectangle 51" class="cls-5" width="40.583" height="67.908" rx="4" transform="translate(0 5.134)"/>
+      <path id="Path_9" data-name="Path 9" class="cls-6" d="M67-928.443l40.583-11.826v33.306L67-894.552Z" transform="translate(-67 957.999)"/>
+      <line id="Line_4" data-name="Line 4" class="cls-7" y2="8.269" transform="translate(20.291 8.613)"/>
+      <line id="Line_5" data-name="Line 5" class="cls-7" x1="8.269" transform="translate(16.157 12.748)"/>
+      <line id="Line_6" data-name="Line 6" class="cls-7" x1="8.269" transform="translate(16.157 66.496)"/>
+      <rect id="Rectangle_53" data-name="Rectangle 53" class="cls-4" width="11.025" height="4.445" rx="1" transform="translate(5.27 -0.445)"/>
+      <path id="Rectangle_62" data-name="Rectangle 62" class="cls-4" d="M1,0h9.025a1,1,0,0,1,1,1v.445a3,3,0,0,1-3,3H3a3,3,0,0,1-3-3V1A1,1,0,0,1,1,0Z" transform="translate(24.27 -0.445)"/>
+    </g>
+  </g>
+</svg>

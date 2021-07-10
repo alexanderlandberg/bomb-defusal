@@ -1,0 +1,185 @@
+#ui {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    transition: opacity 1s 1s linear;
+  }
+
+  #ui-container {
+    background-color: lightgrey;
+    width: 600px;
+    margin: 0 auto;
+    overflow: scroll;
+    height: 100vh;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  #title {
+    text-align: center;
+    font-size: 24px;
+    padding: 30px 0 0 0;
+    text-transform: uppercase;
+  }
+
+  .ui_body_text {
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 0;
+  }
+
+  .col-wrapper {
+    display: flex;
+    margin: 0 0 30px 0;
+  }
+
+  .col-1_2 {
+    height: 200px;
+    width: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .col-1_2 p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: white;
+  }
+
+  #select_random {
+    background-image: url(https://www.meme-arsenal.com/memes/13f0e6e3a9089de5c8943afcc767b533.jpg);
+    background-size: 200%;
+    background-position: 60%;
+
+  }
+
+  #select_create {
+    background-image: url(https://thumbs.dreamstime.com/z/portrait-senior-man-home-having-laptop-computer-smiling-camera-34462054.jpg);
+    background-size: cover;
+    background-position: top;
+  }
+
+  .selected_indicator {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    left: 10px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/BlueFlat_tick_icon.svg/512px-BlueFlat_tick_icon.svg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: none;
+  }
+
+  .col-1_3 {
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #lvl_easy {
+    background-image: url(https://i.kym-cdn.com/photos/images/original/001/232/375/3fb.jpg);
+  }
+
+  #lvl_normal {
+    background-image: url(https://www.e-sante.fr/files/styles/pano_xxl/public/images/article/6/7/8/5502876/vignette-focus.jpg?itok=2W9NxV0F);
+  }
+
+  #lvl_hard {
+    background-image: url(https://mat3e.github.io/brains/img/5.jpg);
+  }
+
+  #start_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+
+  #start_button {
+    background-color: #b00b1e;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #module_list {
+    background-color: white;
+    padding: 20px;
+    line-height: 25px;
+  }
+
+  #module_list ul {
+    list-style-type: none;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  #module_list ul li span {
+    width: 20px;
+    display: inline-block;
+  }
+
+  #module_list ul li span:nth-of-type(1) {
+    width: 40px;
+    display: inline-block;
+  }
+
+  .hide {
+    display: none !important;
+  }
+
+  .slidecontainer {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #ffffff;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+
+  .slider:hover {
+    opacity: 1;
+  }
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: darkgray;
+    cursor: pointer;
+  }
+
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+
+  .slidecontainer p {
+    text-align: center;
+  }

@@ -1,0 +1,101 @@
+#bomb_controls {
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    justify-content: center;
+    position: relative;
+
+    #bomb_flip {
+        margin-top: 40px;
+        width: 150px;
+        height: 150px;
+        position: relative;
+
+        img {
+            top: 25px;
+            left: 25px;
+            height: 80px;
+            width: auto;
+            position: absolute;
+            cursor: pointer;
+        }
+    }
+
+    #bomb_turner {
+        margin-top: 40px;
+        position: relative;
+        width: 150px;
+        height: 150px;
+        background-color: black;
+        border-radius: 10px;
+
+        .handle {
+            position: absolute;
+            z-index: 9;
+            background-color: red;
+            text-align: center;
+            border: 1px solid rgb(185, 0, 0);
+            top: 50px;
+            left: 50px;
+            width: 50px;
+            height: 50px;
+            border-radius: 250px;
+            box-sizing: border-box;
+            cursor: move;
+            transform-origin: center center;
+        }
+
+        .stick {
+            position: absolute;
+            z-index: 8;
+            text-align: center;
+            top: 65px;
+            left: 65px;
+            width: 20px;
+            height: 20px;
+            min-height: 20px;
+            border-radius: 200px;
+            box-sizing: border-box;
+            cursor: move;
+            background-color: #808080;
+            transform-origin: 10px 10px;
+        }
+
+        >div.arr {
+            position: absolute;
+            width: 20px;
+            height: 26px;
+
+            img {
+                width: 20px;
+                height: 26px;
+            }
+        }
+
+        >div.arr {
+            &:nth-child(1) {
+                top: 10px;
+                left: 65px;
+                transform: rotateZ(270deg);
+            }
+
+            &:nth-child(2) {
+                right: 13px;
+                top: 62px;
+                transform: rotateZ(0deg);
+            }
+
+            &:nth-child(3) {
+                bottom: 10px;
+                left: 65px;
+                transform: rotateZ(90deg);
+            }
+
+            &:nth-child(4) {
+                left: 13px;
+                top: 62px;
+                transform: rotateZ(180deg);
+            }
+        }
+    }
+}

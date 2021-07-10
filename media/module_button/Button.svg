@@ -1,0 +1,45 @@
+<svg class="button_module" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 190">
+    <defs>
+        <style>
+        .cls-1 {
+          fill: #d6d6d6;
+        }
+  
+        .cls-2 {
+          fill: #878686;
+        }
+  
+        .cls-3 {
+          fill: #444;
+        }
+  
+        .cls-4 {
+          fill: #fff;
+        }
+  
+      .bg .cls-5{fill:#ff452a;}
+      .bg .cls-6{fill:#15ff4e;}
+      </style>
+    </defs>
+    <g class="bg">
+        <rect class="cls-1" x="0.18" y="0.18" width="190" height="190" />
+        <rect class="cls-2" x="155" y="5" width="30" height="30" />
+        <circle class="cls-3" cx="170" cy="20" r="12" />
+    </g>
+    <g class="light">
+        <g class="red_light">
+            <circle class="cls-5" cx="170" cy="20" r="9" />
+            <image width="90" height="90" transform="translate(125 -25)" xlink:href="media/module_wires/red_light_shadow.png" />
+        </g>
+        <g class="green_light">
+            <circle class="cls-6" cx="170" cy="20" r="9" />
+            <image width="90" height="90" transform="translate(125 -25)" xlink:href="media/module_wires/green_light_shadow.png" />
+        </g>
+    </g>
+    <g class="button_container" data-name="Group 39" transform="translate(-12 -14)">
+        <rect class="strip_display" data-name="Strip Display" width="25" height="120" transform="translate(170 60)"/>
+        <rect class="strip_color" data-name="Strip Color" width="25" height="120" transform="translate(170 60)"/>
+        <circle class="button cls-4" data-name="button" cx="60" cy="60" r="60" transform="translate(32 49)"/>
+        <circle class="button" fill="red" data-name="button" cx="64" cy="64" r="64" transform="translate(30 46)"/>
+    </g>
+</svg>

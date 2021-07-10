@@ -1,0 +1,160 @@
+<svg class="complicatedWiresSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 190">
+  <defs>
+    <style>
+      .complicatedWiresSvg .cls-1 {
+        fill: #d6d6d6;
+      }
+
+      .complicatedWiresSvg .cls-2 {
+        fill: #878686;
+      }
+
+      .complicatedWiresSvg .cls-3,  .complicatedWiresSvg .cls-6, .complicatedWiresSvg .cls-8 {
+        fill: #444;
+      }
+
+      .complicatedWiresSvg .cls-10, .complicatedWiresSvg .cls-4 {
+        fill: none;
+      }
+
+      .complicatedWiresSvg .wire_color1 {
+        stroke: none;
+        stroke-width: 4px;
+      }
+
+      .complicatedWiresSvg .wire_color2 {
+        stroke: white;
+        stroke-width: 4px;
+      }
+
+      .complicatedWiresSvg .cls-5 {
+        fill: #cecece;
+      }
+
+      .complicatedWiresSvg .cls-6, .complicatedWiresSvg .cls-7 {
+        stroke: #707070;
+      }
+
+      .complicatedWiresSvg .cls-7 {
+        fill: #ff0;
+      }
+
+      .complicatedWiresSvg .cls-8 {
+        stroke: #444;
+        display: none;
+      }
+
+      .complicatedWiresSvg .cls-9 {
+        stroke: none;
+      }
+
+      .complicatedWiresSvg .wire_cut {
+        stroke-dasharray: 65 !important;
+        stroke-dashoffset: 47 !important;
+      }
+
+      .complicatedWiresSvg .shadows image {
+        display: none;
+      }
+    </style>
+  </defs>
+  <g class="Module_ComplicatedWires" transform="translate(-12 -14)">
+    <g class="bg">
+      <path class="Path_15 cls-1" data-name="Path 15" d="M0,0H190V190H0Z" transform="translate(12 14)"/>
+      <rect class="Rectangle_95 cls-2" data-name="Rectangle 95" width="30" height="30" transform="translate(167 19)"/>
+      <circle class="Ellipse_43 cls-3" data-name="Ellipse 43" cx="12" cy="12" r="12" transform="translate(170.202 22.072)"/>
+    </g>
+    <g class="shadows" transform="translate(12 14)">
+          <image class="shadow1" width="100%" height="100%" xlink:href="media/module_complicated_wires/Wire_shadow1.png" />
+          <image class="shadow2" width="100%" height="100%" xlink:href="media/module_complicated_wires/Wire_shadow2.png" />
+          <image class="shadow3" width="100%" height="100%" xlink:href="media/module_complicated_wires/Wire_shadow3.png" />
+          <image class="shadow4" width="100%" height="100%" xlink:href="media/module_complicated_wires/Wire_shadow4.png" />
+          <image class="shadow5" width="100%" height="100%" xlink:href="media/module_complicated_wires/Wire_shadow5.png" />
+          <image class="shadow6" width="100%" height="100%" xlink:href="media/module_complicated_wires/Wire_shadow6.png" />
+       </g>
+    <g class="wire_container" transform="translate(-936 -1)">
+      <g class="wire1">
+        <path class="wire_color2 cls-4" d="M957.855-682.126s2.115,7.109,2.115,23.242-2.532,22.393-2.115,41.292a303.5,303.5,0,0,0,2.115,31.268" transform="translate(13 744)"/>
+        <path class="wire_color1 cls-4" d="M957.855-682.126s2.115,7.109,2.115,23.242-2.532,22.393-2.115,41.292a303.5,303.5,0,0,0,2.115,31.268" transform="translate(13 744)"/>
+      </g>
+      <g class="wire2">
+        <path class="wire_color2 cls-4" d="M957.855-682.126s4.05,32.244-1.794,49.117,6.415,46.422,6.415,46.422" transform="translate(34 744)"/>
+        <path class="wire_color1 cls-4" d="M957.855-682.126s4.05,32.244-1.794,49.117,6.415,46.422,6.415,46.422" transform="translate(34 744)"/>
+      </g>
+      <g class="wire3">
+        <path class="wire_color2 cls-4" d="M957.855-682.126s-3.736,14.176,3.052,26.11,1.332,9.495-3.052,28.384,8.1,40.98,8.1,40.98" transform="translate(55 744)"/>
+        <path class="wire_color1 cls-4" d="M957.855-682.126s-3.736,14.176,3.052,26.11,1.332,9.495-3.052,28.384,8.1,40.98,8.1,40.98" transform="translate(55 744)"/>
+      </g>
+      <g class="wire4">
+        <path class="wire_color2 cls-4" d="M957.855-682.126s.642,2.418,1.581,6.466c2.549,10.986,7.237,34.314,3.135,41.456-5.766,10.039,2.565,28.643,4.708,35.3a51.707,51.707,0,0,1,1.967,12.95" transform="translate(76 744)"/>
+        <path class="wire_color1 cls-4" d="M957.855-682.126s.642,2.418,1.581,6.466c2.549,10.986,7.237,34.314,3.135,41.456-5.766,10.039,2.565,28.643,4.708,35.3a51.707,51.707,0,0,1,1.967,12.95" transform="translate(76 744)"/>
+      </g>
+      <g class="wire5">
+        <path class="wire_color2 cls-4" d="M957.855-682.126a217.681,217.681,0,0,1,2.115,29.185c.251,17.841,7.147,19.97,7.325,37.959s4.831,28.255,4.831,28.255" transform="translate(97 744)"/>
+        <path class="wire_color1 cls-4" d="M957.855-682.126a217.681,217.681,0,0,1,2.115,29.185c.251,17.841,7.147,19.97,7.325,37.959s4.831,28.255,4.831,28.255" transform="translate(97 744)"/>
+      </g>
+      <g class="wire6">
+        <path class="wire_color2 cls-4" d="M957.855-682.126s-.951,32.264,3.274,55.98c1.872,10.506,8.413,17.315,11.164,24.176a33.653,33.653,0,0,1,2.465,14.711" transform="translate(118 744)"/>
+        <path class="wire_color1 cls-4" d="M957.855-682.126s-.951,32.264,3.274,55.98c1.872,10.506,8.413,17.315,11.164,24.176a33.653,33.653,0,0,1,2.465,14.711" transform="translate(118 744)"/>
+      </g>
+    </g>
+    <g class="bg2">
+      <rect class="Rectangle_130 cls-2" data-name="Rectangle 130" width="130" height="30" transform="translate(22 29)"/>
+      <rect class="Rectangle_131 cls-2" data-name="Rectangle 131" width="150" height="30" transform="translate(22 159)"/>
+      <rect class="Rectangle_132 cls-5" data-name="Rectangle 132" width="18" height="18" transform="translate(28 165)"/>
+      <rect class="Rectangle_132-2 cls-5" data-name="Rectangle 132" width="18" height="18" transform="translate(52 165)"/>
+      <rect class="Rectangle_132-3 cls-5" data-name="Rectangle 132" width="18" height="18" transform="translate(76 165)"/>
+      <rect class="Rectangle_132-4 cls-5" data-name="Rectangle 132" width="18" height="18" transform="translate(100 165)"/>
+      <rect class="Rectangle_132-5 cls-5" data-name="Rectangle 132" width="18" height="18" transform="translate(124 165)"/>
+      <rect class="Rectangle_132-6 cls-5" data-name="Rectangle 132" width="18" height="18" transform="translate(148 165)"/>
+    </g>
+    <g class="LED" transform="translate(-936 -1)">
+      <g class="LED1 cls-6" transform="translate(963 35)">
+        <circle class="cls-9" cx="7.5" cy="7.5" r="7.5"/>
+        <circle class="cls-10" cx="7.5" cy="7.5" r="7"/>
+      </g>
+      <g class="LED2 cls-6" transform="translate(984 35)">
+        <circle class="cls-9" cx="7.5" cy="7.5" r="7.5"/>
+        <circle class="cls-10" cx="7.5" cy="7.5" r="7"/>
+      </g>
+      <g class="LED3 cls-6" transform="translate(1005 35)">
+        <circle class="cls-9" cx="7.5" cy="7.5" r="7.5"/>
+        <circle class="cls-10" cx="7.5" cy="7.5" r="7"/>
+      </g>
+      <g class="LED4 cls-6" transform="translate(1026 35)">
+        <circle class="cls-9" cx="7.5" cy="7.5" r="7.5"/>
+        <circle class="cls-10" cx="7.5" cy="7.5" r="7"/>
+      </g>
+      <g class="LED5 cls-6" transform="translate(1047 35)">
+        <circle class="cls-9" cx="7.5" cy="7.5" r="7.5"/>
+        <circle class="cls-10" cx="7.5" cy="7.5" r="7"/>
+      </g>
+      <g class="LED6 cls-6" transform="translate(1068 35)">
+        <circle class="cls-9" cx="7.5" cy="7.5" r="7.5"/>
+        <circle class="cls-10" cx="7.5" cy="7.5" r="7"/>
+      </g>
+    </g>
+    <g class="Stars" transform="translate(-936 -1)">
+      <path class="Star1 cls-8" d="M889.94-479.7H893.6l1.117-3.638,1.128,3.638h3.658l-3,2.293,1.186,3.635-2.975-2.285-2.963,2.285,1.13-3.635Z" transform="translate(77.831 653.707)"/>
+      <path class="Star2 cls-8" d="M889.94-479.7H893.6l1.117-3.638,1.128,3.638h3.658l-3,2.293,1.186,3.635-2.975-2.285-2.963,2.285,1.13-3.635Z" transform="translate(101.831 653.707)"/>
+      <path class="Star3 cls-8" d="M889.94-479.7H893.6l1.117-3.638,1.128,3.638h3.658l-3,2.293,1.186,3.635-2.975-2.285-2.963,2.285,1.13-3.635Z" transform="translate(125.831 653.707)"/>
+      <path class="Star4 cls-8" d="M889.94-479.7H893.6l1.117-3.638,1.128,3.638h3.658l-3,2.293,1.186,3.635-2.975-2.285-2.963,2.285,1.13-3.635Z" transform="translate(149.831 653.707)"/>
+      <path class="Star5 cls-8" d="M889.94-479.7H893.6l1.117-3.638,1.128,3.638h3.658l-3,2.293,1.186,3.635-2.975-2.285-2.963,2.285,1.13-3.635Z" transform="translate(173.831 653.707)"/>
+      <path class="Star6 cls-8" d="M889.94-479.7H893.6l1.117-3.638,1.128,3.638h3.658l-3,2.293,1.186,3.635-2.975-2.285-2.963,2.285,1.13-3.635Z" transform="translate(197.831 653.707)"/>
+    </g>
+    <g class="Connectors" transform="translate(-936 -1)">
+      <rect class="cls-3" width="10" height="5" transform="translate(966 60)"/>
+      <rect class="cls-3" width="10" height="5" transform="translate(968 155)"/>
+      <rect class="cls-3" width="10" height="5" transform="translate(992 155)"/>
+      <rect class="cls-3" width="10" height="5" transform="translate(1016 155)"/>
+      <rect class="cls-3" width="10" height="5" transform="translate(1040 155)"/>
+      <rect class="cls-3" width="10" height="5" transform="translate(1064 155)"/>
+      <rect class="cls-3" width="10" height="5" transform="translate(1088 155)"/>
+      <rect class="cls-3" width="10" height="5" transform="translate(987 60)"/>
+      <rect class="cls-3" width="10" height="5" transform="translate(1008 60)"/>
+      <rect class="cls-3" width="10" height="5" transform="translate(1029 60)"/>
+      <rect class="cls-3" width="10" height="5" transform="translate(1050 60)"/>
+      <rect class="cls-3" width="10" height="5" transform="translate(1071 60)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+.keypad_container {
+    width: 120px;
+    height: 120px;
+    left: 25px;
+    top: 40px;
+    position: absolute;
+    background-color: #A7A7A7;
+    cursor: pointer;
+
+    .keypad_key {
+        width: 54px;
+        height: 54px;
+        float: left;
+        background-color: #FFFFFF;
+
+        &:nth-child(1) {
+            margin: 4px 2px 2px 4px;
+        }
+
+        &:nth-child(2) {
+            margin: 4px 4px 2px 2px;
+        }
+
+        &:nth-child(3) {
+            margin: 2px 2px 4px 4px;
+        }
+
+        &:nth-child(4) {
+            margin: 2px 4px 4px 2px;
+        }
+
+        .keypad_light {
+            width: 18px;
+            height: 4px;
+            margin: 5px auto;
+            background-color: #000000;
+        }
+
+        .keypad_label {
+            width: 36px;
+            height: 36px;
+            margin: 5px auto;
+            display: block;
+        }
+    }
+}

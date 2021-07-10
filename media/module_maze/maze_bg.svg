@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 135 135">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #444444;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="125" height="125"/>
+    </clipPath>
+  </defs>
+  <g id="maze_bg" transform="translate(-1443 -55)">
+    <rect id="Rectangle_152" data-name="Rectangle 152" width="135" height="135" transform="translate(1443 55)"/>
+    <g id="Repeat_Grid_5" data-name="Repeat Grid 5" class="cls-2" transform="translate(1448 60)">
+      <g id="Group_38" data-name="Group 38" transform="translate(-1448 -165)">
+        <rect id="Rectangle_160" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-2" data-name="Group 38" transform="translate(-1427 -165)">
+        <rect id="Rectangle_160-2" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-2" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-3" data-name="Group 38" transform="translate(-1406 -165)">
+        <rect id="Rectangle_160-3" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-3" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-4" data-name="Group 38" transform="translate(-1385 -165)">
+        <rect id="Rectangle_160-4" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-4" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-5" data-name="Group 38" transform="translate(-1364 -165)">
+        <rect id="Rectangle_160-5" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-5" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-6" data-name="Group 38" transform="translate(-1343 -165)">
+        <rect id="Rectangle_160-6" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-6" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-7" data-name="Group 38" transform="translate(-1448 -144)">
+        <rect id="Rectangle_160-7" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-7" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-8" data-name="Group 38" transform="translate(-1427 -144)">
+        <rect id="Rectangle_160-8" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-8" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-9" data-name="Group 38" transform="translate(-1406 -144)">
+        <rect id="Rectangle_160-9" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-9" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-10" data-name="Group 38" transform="translate(-1385 -144)">
+        <rect id="Rectangle_160-10" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-10" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-11" data-name="Group 38" transform="translate(-1364 -144)">
+        <rect id="Rectangle_160-11" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-11" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-12" data-name="Group 38" transform="translate(-1343 -144)">
+        <rect id="Rectangle_160-12" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-12" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-13" data-name="Group 38" transform="translate(-1448 -123)">
+        <rect id="Rectangle_160-13" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-13" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-14" data-name="Group 38" transform="translate(-1427 -123)">
+        <rect id="Rectangle_160-14" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-14" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-15" data-name="Group 38" transform="translate(-1406 -123)">
+        <rect id="Rectangle_160-15" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-15" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-16" data-name="Group 38" transform="translate(-1385 -123)">
+        <rect id="Rectangle_160-16" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-16" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-17" data-name="Group 38" transform="translate(-1364 -123)">
+        <rect id="Rectangle_160-17" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-17" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-18" data-name="Group 38" transform="translate(-1343 -123)">
+        <rect id="Rectangle_160-18" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-18" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-19" data-name="Group 38" transform="translate(-1448 -102)">
+        <rect id="Rectangle_160-19" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-19" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-20" data-name="Group 38" transform="translate(-1427 -102)">
+        <rect id="Rectangle_160-20" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-20" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-21" data-name="Group 38" transform="translate(-1406 -102)">
+        <rect id="Rectangle_160-21" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-21" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-22" data-name="Group 38" transform="translate(-1385 -102)">
+        <rect id="Rectangle_160-22" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-22" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-23" data-name="Group 38" transform="translate(-1364 -102)">
+        <rect id="Rectangle_160-23" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-23" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-24" data-name="Group 38" transform="translate(-1343 -102)">
+        <rect id="Rectangle_160-24" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-24" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-25" data-name="Group 38" transform="translate(-1448 -81)">
+        <rect id="Rectangle_160-25" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-25" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-26" data-name="Group 38" transform="translate(-1427 -81)">
+        <rect id="Rectangle_160-26" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-26" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-27" data-name="Group 38" transform="translate(-1406 -81)">
+        <rect id="Rectangle_160-27" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-27" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-28" data-name="Group 38" transform="translate(-1385 -81)">
+        <rect id="Rectangle_160-28" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-28" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-29" data-name="Group 38" transform="translate(-1364 -81)">
+        <rect id="Rectangle_160-29" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-29" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-30" data-name="Group 38" transform="translate(-1343 -81)">
+        <rect id="Rectangle_160-30" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-30" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-31" data-name="Group 38" transform="translate(-1448 -60)">
+        <rect id="Rectangle_160-31" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-31" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-32" data-name="Group 38" transform="translate(-1427 -60)">
+        <rect id="Rectangle_160-32" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-32" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-33" data-name="Group 38" transform="translate(-1406 -60)">
+        <rect id="Rectangle_160-33" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-33" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-34" data-name="Group 38" transform="translate(-1385 -60)">
+        <rect id="Rectangle_160-34" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-34" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-35" data-name="Group 38" transform="translate(-1364 -60)">
+        <rect id="Rectangle_160-35" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-35" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+      <g id="Group_38-36" data-name="Group 38" transform="translate(-1343 -60)">
+        <rect id="Rectangle_160-36" data-name="Rectangle 160" class="cls-1" width="20" height="20" transform="translate(1448 165)"/>
+        <rect id="Rectangle_161-36" data-name="Rectangle 161" class="cls-3" width="6" height="6" transform="translate(1455 172)"/>
+      </g>
+    </g>
+  </g>
+</svg>

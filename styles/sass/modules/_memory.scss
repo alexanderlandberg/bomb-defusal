@@ -1,0 +1,93 @@
+.memory_container {
+    &>div {
+        position: absolute;
+        text-transform: uppercase;
+        font-family: Courier, monospace;
+        text-align: center;
+    }
+
+    .memory_display {
+        width: 135px;
+        height: 65px;
+        left: 15px;
+        top: 40px;
+        color: #FFFFFF;
+        font-size: 50px;
+        line-height: 60px;
+        opacity: 0;
+        transform: scaleX(3.5) scaleY(0);
+        transition: all 0.1s linear;
+
+    }
+
+    .memory_strip {
+        width: 30px;
+        height: 120px;
+        top: 60px;
+        right: 10px;
+        background-color: #000000;
+    }
+
+    div[class^="memory_strip_light_"] {
+        width: 18px;
+        height: 10px;
+        right: 16px;
+        background-color: #CCCCCC;
+
+        &[class$="1"] {
+            top: 160px;
+        }
+
+        &[class$="2"] {
+            top: 140px;
+        }
+
+        &[class$="3"] {
+            top: 120px;
+        }
+
+        &[class$="4"] {
+            top: 100px;
+        }
+
+        &[class$="5"] {
+            top: 80px;
+        }
+
+        &[class$="6"] {
+            top: 160px;
+        }
+    }
+
+    div[class^="memory_position_"] {
+        position: absolute;
+        width: 30px;
+        height: 45px;
+        top: 110px;
+        background-color: #fff;
+        color: #000;
+        font-size: 25px;
+        line-height: 44px;
+        transform: scaleY(0);
+        transform-origin: top center;
+        transition: transform 0.1s linear;
+        user-select: none;
+        cursor: pointer;
+
+        &[class$="1"] {
+            left: 15px;
+        }
+
+        &[class$="2"] {
+            left: 50px;
+        }
+
+        &[class$="3"] {
+            left: 85px;
+        }
+
+        &[class$="4"] {
+            left: 120px;
+        }
+    }
+}

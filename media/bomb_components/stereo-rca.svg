@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 45">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a5a192;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: #989898;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Stereo_RCA" data-name="Stereo RCA" transform="translate(-232 233) rotate(-90)">
+    <g id="Group_26" data-name="Group 26">
+      <g id="Ellipse_18" data-name="Ellipse 18" class="cls-1" transform="translate(188 232)">
+        <circle class="cls-3" cx="10" cy="10" r="10"/>
+        <circle class="cls-4" cx="10" cy="10" r="9.5"/>
+      </g>
+      <g id="Ellipse_19" data-name="Ellipse 19" class="cls-2" transform="translate(192 236)">
+        <circle class="cls-3" cx="6" cy="6" r="6"/>
+        <circle class="cls-4" cx="6" cy="6" r="5.5"/>
+      </g>
+      <circle id="Ellipse_20" data-name="Ellipse 20" cx="4" cy="4" r="4" transform="translate(194 238)"/>
+    </g>
+    <g id="Group_27" data-name="Group 27" transform="translate(25)">
+      <g id="Ellipse_18-2" data-name="Ellipse 18" class="cls-1" transform="translate(188 232)">
+        <circle class="cls-3" cx="10" cy="10" r="10"/>
+        <circle class="cls-4" cx="10" cy="10" r="9.5"/>
+      </g>
+      <g id="Ellipse_19-2" data-name="Ellipse 19" class="cls-2" transform="translate(192 236)">
+        <circle class="cls-3" cx="6" cy="6" r="6"/>
+        <circle class="cls-4" cx="6" cy="6" r="5.5"/>
+      </g>
+      <circle id="Ellipse_20-2" data-name="Ellipse 20" cx="4" cy="4" r="4" transform="translate(194 238)"/>
+    </g>
+  </g>
+</svg>

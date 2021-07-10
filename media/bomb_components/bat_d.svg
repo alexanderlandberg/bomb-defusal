@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.478 82">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #707070;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #707070;
+      }
+
+      .cls-3, .cls-7 {
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        fill: #bfbfbf;
+      }
+
+      .cls-5 {
+        fill: #f0a42a;
+      }
+
+      .cls-6 {
+        fill: #404040;
+      }
+
+      .cls-7, .cls-9 {
+        fill: none;
+      }
+
+      .cls-7 {
+        stroke: #fff;
+      }
+
+      .cls-8 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="D_Battery" data-name="D Battery" transform="translate(-121 934)">
+    <g id="Battery_Container" data-name="Battery Container" transform="translate(121 -934)">
+      <g id="Rectangle_54" data-name="Rectangle 54" class="cls-1">
+        <rect class="cls-8" width="51.478" height="82" rx="9"/>
+        <rect class="cls-9" x="0.5" y="0.5" width="50.478" height="81" rx="8.5"/>
+      </g>
+      <rect id="Rectangle_55" data-name="Rectangle 55" class="cls-2" width="12.605" height="3.067" transform="translate(19.5 0.689)"/>
+      <rect id="Rectangle_56" data-name="Rectangle 56" class="cls-3" width="17.562" height="3.134" transform="translate(16.958 77.176)"/>
+    </g>
+    <g id="Battery_2" data-name="Battery 2" transform="translate(124 -930.555)">
+      <rect id="Rectangle_52" data-name="Rectangle 52" class="cls-4" width="39.764" height="3.445" rx="1" transform="translate(2.756 2.067)"/>
+      <rect id="Rectangle_51" data-name="Rectangle 51" class="cls-5" width="45.965" height="68.908" rx="4" transform="translate(0 4.134)"/>
+      <path id="Path_9" data-name="Path 9" class="cls-6" d="M67-928.443l45.965-11.826v33.306L67-894.552Z" transform="translate(-67 957.999)"/>
+      <line id="Line_4" data-name="Line 4" class="cls-7" y2="8.269" transform="translate(22.983 8.613)"/>
+      <line id="Line_5" data-name="Line 5" class="cls-7" x1="8.269" transform="translate(18.848 12.748)"/>
+      <line id="Line_6" data-name="Line 6" class="cls-7" x1="8.269" transform="translate(18.848 66.496)"/>
+      <rect id="Rectangle_53" data-name="Rectangle 53" class="cls-4" width="12.025" height="3.445" rx="1" transform="translate(17)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,86 @@
+.morsecode_container {
+    &>div {
+        position: absolute;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .morsecode_display {
+        width: 80px;
+        height: 20px;
+        left: 60px;
+        top: 105px;
+        background-color: #000000;
+        font-size: 17px;
+        line-height: 23px;
+        color: #C37800;
+        font-family: 'Digital 7', Courier, monospace;
+    }
+
+    .morsecode_light {
+        width: 40px;
+        height: 26px;
+        top: 20px;
+        left: 35px;
+        background: #ffff00;
+        //background: linear-gradient(0deg, rgba(213, 187, 80, 1) 0%, rgba(255, 255, 0, 1) 40%, rgba(255, 255, 0, 1) 60%, rgba(213, 187, 80, 1) 100%);
+        opacity: 0.30;
+    }
+
+    .morsecode_flash {
+        opacity: 1;
+    }
+
+    .morsecode_tuner_line {
+        background-color: #b00b1e;
+        width: 4px;
+        height: 20px;
+        top: 70px;
+        left: 25px;
+        transition: left 0.2s linear;
+    }
+
+    .morsecode_btn_left,
+    .morsecode_btn_right {
+        top: 105px;
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        cursor: pointer;
+        transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+        &:hover {
+            transform: scale(1.2)
+        }
+    }
+
+    .morsecode_btn_left {
+        left: 30px;
+        border-right: 10px solid #444444;
+    }
+
+    .morsecode_btn_right {
+        right: 30px;
+        border-left: 10px solid #444444;
+    }
+
+    .morsecode_TX_btn {
+        width: 40px;
+        height: 20px;
+        left: 80px;
+        top: 155px;
+        background-color: #FFFFFF;
+        color: #000000;
+        font-size: 12px;
+        line-height: 20px;
+        font-family: Courier, monospace;
+        cursor: pointer;
+        transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+        &:hover {
+            transform: scale(1.1)
+        }
+    }
+
+}

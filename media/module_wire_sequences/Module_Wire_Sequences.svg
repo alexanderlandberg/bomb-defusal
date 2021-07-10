@@ -1,0 +1,127 @@
+<svg class="wireSequencesSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 190">
+  <defs>
+    <style>
+      .wireSequencesSvg .cls-1 {
+        fill: #d6d6d6;
+      }
+
+      .wireSequencesSvg .cls-2 {
+        fill: #878686;
+      }
+
+      .wireSequencesSvg .cls-3, .wireSequencesSvg .cls-6 {
+        fill: #444;
+      }
+
+      .wireSequencesSvg .cls-4 {
+        fill: #fff;
+      }
+
+      .wireSequencesSvg .cls-5 {
+        font-size: 14px;
+        font-family: Courier;
+      }
+
+      .wireSequencesSvg .cls-6 {
+        stroke: #878686;
+        stroke-width: 2px;
+      }
+
+      .wireSequencesSvg .cls-7, .wireSequencesSvg .cls-9 {
+        fill: none;
+      }
+
+      .wireSequencesSvg .cls-7 {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-width: 6px;
+      }
+
+      .wireSequencesSvg .cls-8 {
+        stroke: none;
+      }
+      .red_light .red_bg {
+        fill: #ff452a;
+      }
+      .green_light .green_bg {
+        fill: #15ff4e;
+      }
+    </style>
+  </defs>
+  <g class="Module_Wire_Sequences" transform="translate(-12 -14)">
+    <g class="bg">
+      <path class="Path_15 cls-1" d="M0,0H190V190H0Z" transform="translate(12 14)"/>
+      <rect class="Rectangle_95 cls-2" width="30" height="30" transform="translate(167 19)"/>
+      <circle class="Ellipse_43 cls-3" cx="12" cy="12" r="12" transform="translate(170.202 22.072)"/>
+    </g>
+    <g class="red_light">
+      <circle class="red_bg" cx="170" cy="20" r="9" />
+      <image width="90" height="90" transform="translate(125 -25)" xlink:href="media/module_wires/red_light_shadow.png" />
+    </g>
+    <g class="green_light">
+      <circle class="green_bg" cx="170" cy="20" r="9" />
+      <image width="90" height="90" transform="translate(125 -25)" xlink:href="media/module_wires/green_light_shadow.png" />
+    </g>
+    <g class="Arrow_up" transform="translate(-1191 -1)">
+      <rect class="Rectangle_145 cls-4" width="40" height="20" transform="translate(1263 25)"/>
+      <path class="Path_20 cls-2" d="M43.142,24.15H36.2c-.437,0-.792-.246-.792-.551v-6.02H31.785c-.776,0-.983-.645-.562-.942l7.991-5.556a1.084,1.084,0,0,1,1.12,0l7.987,5.556c.492.343.211.942-.562.942H43.934V23.6c0,.3-.351.551-.792.551Z" transform="translate(1243.193 17.038)"/>
+    </g>
+    <g class="Arrow_down" transform="translate(1375 219) rotate(180)">
+      <rect class="Rectangle_145-2 cls-4" width="40" height="20" transform="translate(1263 25)"/>
+      <path class="Path_20-2 cls-2" d="M43.142,24.15H36.2c-.437,0-.792-.246-.792-.551v-6.02H31.785c-.776,0-.983-.645-.562-.942l7.991-5.556a1.084,1.084,0,0,1,1.12,0l7.987,5.556c.492.343.211.942-.562.942H43.934V23.6c0,.3-.351.551-.792.551Z" transform="translate(1243.193 17.038)"/>
+    </g>
+    <g class="Strip" transform="translate(-1176 -1)">
+      <rect class="strip_color" width="30" height="120" transform="translate(1343 69)"/>
+      <rect class="strip_label1 cls-4" width="18" height="10" transform="translate(1349.42 169)"/>
+      <rect class="strip_label2 cls-4" width="18" height="10" transform="translate(1349.42 149)"/>
+      <rect class="strip_label3 cls-4" width="18" height="10" transform="translate(1349.42 129)"/>
+      <rect class="strip_label4 cls-4" width="18" height="10" transform="translate(1349.42 109)"/>
+    </g>
+    <g class="Panel" transform="translate(-1176 -1)">
+      <rect class="Rectangle_152 cls-4" width="110" height="110" transform="translate(1213 55)"/>
+      <text class="text_label1 cls-5" transform="translate(1218 86)"><tspan x="0" y="0">1</tspan></text>
+      <text class="text_label2 cls-5" transform="translate(1218 114)"><tspan x="0" y="0">2</tspan></text>
+      <text class="text_label3 cls-5" transform="translate(1218 142)"><tspan x="0" y="0">3</tspan></text>
+      <text class="text_labelA cls-5" transform="translate(1310 86)"><tspan x="0" y="0">A</tspan></text>
+      <text class="text_labelB cls-5" transform="translate(1310 114)"><tspan x="0" y="0">B</tspan></text>
+      <text class="text_labelC cls-5" transform="translate(1310 142)"><tspan x="0" y="0">C</tspan></text>
+      <g class="cls-6" transform="translate(1233 76)">
+        <rect class="cls-8" width="12" height="12"/>
+        <rect class="cls-9" x="1" y="1" width="10" height="10"/>
+      </g>
+      <g class="cls-6" transform="translate(1233 104)">
+        <rect class="cls-8" width="12" height="12"/>
+        <rect class="cls-9" x="1" y="1" width="10" height="10"/>
+      </g>
+      <g class="cls-6" transform="translate(1233 132)">
+        <rect class="cls-8" width="12" height="12"/>
+        <rect class="cls-9" x="1" y="1" width="10" height="10"/>
+      </g>
+      <g class="cls-6" transform="translate(1291 76)">
+        <rect class="cls-8" width="12" height="12"/>
+        <rect class="cls-9" x="1" y="1" width="10" height="10"/>
+      </g>
+      <g class="cls-6" transform="translate(1291 104)">
+        <rect class="cls-8" width="12" height="12"/>
+        <rect class="cls-9" x="1" y="1" width="10" height="10"/>
+      </g>
+      <g class="cls-6" transform="translate(1291 132)">
+        <rect class="cls-8" width="12" height="12"/>
+        <rect class="cls-9" x="1" y="1" width="10" height="10"/>
+      </g>
+    </g>
+    <g class="Wire_container" transform="translate(-1176 -1)">
+      <path class="wire1 Wire_1C cls-7" d="M0,0A194.849,194.849,0,0,1,31.651,24.153C46.151,38.153,58,56,58,56" transform="translate(1239 82)"/>
+      <path class="wire1 Wire_1B cls-7" d="M0,0A168.465,168.465,0,0,1,29.921,10.678,190.738,190.738,0,0,1,58,27.988" transform="translate(1239 82)"/>
+      <path class="wire1 Wire_1A cls-7" d="M0,0S12.956-1.366,27.456-1.366,58,0,58,0" transform="translate(1239 82)"/>
+
+      <path class="wire2 Wire_2C cls-7" d="M0,0S13.942,8.554,28.442,15.554,58,28,58,28" transform="translate(1239 110)"/>
+      <path class="wire2 Wire_2B cls-7" d="M0,0A235.111,235.111,0,0,0,27.661,1.765C42.161,1.765,58,0,58,0" transform="translate(1239 110)"/>
+      <path class="wire2 Wire_2A cls-7" d="M0,28s16.029-9.54,30.529-16.54A281.456,281.456,0,0,1,58,0" transform="translate(1239 82)"/>
+
+      <path class="wire3 Wire_3C cls-7" d="M0,0A182.834,182.834,0,0,1,27.546-2.25,254.549,254.549,0,0,1,58,0" transform="translate(1239 138)"/>
+      <path class="wire3 Wire_3B cls-7" d="M0-.006l58-28" transform="translate(1239 138.006)"/>
+      <path class="wire3 Wire_3A cls-7" d="M0,28.092l58-56.1" transform="translate(1239 109.908)"/>
+    </g
+  </g>
+</svg>

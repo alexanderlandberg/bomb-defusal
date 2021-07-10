@@ -1,0 +1,146 @@
+.maze_container {
+
+    $mazeBtn: #444444;
+
+    .maze_bg {
+        position: absolute;
+        width: 125px;
+        height: 125px;
+        left: 20px;
+        top: 45px;
+        padding: 5px;
+        background-image: url(../media/module_maze/maze_bg.svg);
+    }
+
+    .maze_rings {
+        position: absolute;
+        width: 125px;
+        height: 125px;
+        left: 20px;
+        top: 45px;
+        padding: 5px;
+        background-image: url(../media/module_maze/maze_rings1_grid.svg);
+        user-select: none;
+        pointer-events: none;
+    }
+
+    .maze {
+        position: absolute;
+        width: 125px;
+        height: 125px;
+        left: 20px;
+        top: 45px;
+        padding: 5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 1px;
+        transform: scaleY(-1);
+
+        .maze_square {
+            width: 20px;
+            height: 20px;
+            grid-column: 1 / 7;
+            grid-row: 6 / 7;
+            position: relative;
+
+            >div {
+                position: absolute;
+                background-color: white;
+                width: 6px;
+                height: 6px;
+                left: 7px;
+                top: 7px;
+            }
+        }
+
+        .maze_triangle {
+            background-color: black;
+            width: 20px;
+            height: 20px;
+            grid-column: 5 / 7;
+            grid-row: 3 / 7;
+            position: relative;
+
+            >div {
+                position: absolute;
+                left: 50%;
+                top: 45%;
+                transform: translateX(-50%) translateY(-50%);
+                width: 0;
+                height: 0;
+                border-left: 5px solid transparent;
+                border-right: 5px solid transparent;
+                border-bottom: 9px solid red;
+                animation: triangle_ani 20s linear infinite;
+                transform-origin: 50% 65%;
+            }
+        }
+    }
+
+    @keyframes triangle_ani {
+        from {
+            transform: translateX(-50%) translateY(-50%) rotate(0deg);
+        }
+
+        to {
+            transform: translateX(-50%) translateY(-50%) rotate(360deg);
+        }
+    }
+
+    div[class^="maze_button_"] {
+        position: absolute;
+        width: 0;
+        height: 0;
+
+        &[class$="top"] {
+            top: 33px;
+            left: 67px;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-bottom: 10px solid $mazeBtn;
+
+        }
+
+        &[class$="right"] {
+            top: 95px;
+            left: 157px;
+            border-top: 20px solid transparent;
+            border-bottom: 20px solid transparent;
+            border-left: 10px solid $mazeBtn;
+        }
+
+        &[class$="bottom"] {
+            top: 182px;
+            left: 67px;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-top: 10px solid $mazeBtn;
+
+        }
+
+        &[class$="left"] {
+            top: 95px;
+            left: 8px;
+            border-top: 20px solid transparent;
+            border-bottom: 20px solid transparent;
+            border-right: 10px solid $mazeBtn;
+        }
+    }
+
+    .keyboard_button {
+        position: absolute;
+        color: #FFF;
+        font-size: 8px;
+        left: 15px;
+        top: 15px;
+        background-color: #444444;
+        padding: 2px;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(0.95)
+        }
+    }
+
+}

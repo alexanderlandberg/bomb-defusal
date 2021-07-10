@@ -1,0 +1,107 @@
+.module_button_label {
+    position: absolute;
+    text-align: center;
+    font-family: 'Cutive Mono', Courier, monospace;
+    text-transform: uppercase;
+    top: 90px;
+    left: 30px;
+    width: 110px;
+    font-size: 20px;
+    color: #000000;
+    transition: transform 0.1s linear;
+    pointer-events: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+svg.button_module {
+    .button_container .button {
+        cursor: pointer;
+
+        &:hover {
+            stroke: 4px solid red;
+            transform: scale(10px);
+        }
+    }
+
+    .strip_color {
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes strip_color_white {
+        0% {
+            fill: rgb(230, 230, 230);
+        }
+
+        90% {
+            fill: rgb(255, 255, 255);
+        }
+
+        100% {
+            fill: rgb(255, 255, 255);
+        }
+    }
+
+    @keyframes strip_color_blue {
+        0% {
+            fill: rgb(0, 0, 130);
+        }
+
+        80% {
+            fill: rgb(0, 0, 255);
+        }
+
+        100% {
+            fill: rgb(0, 0, 255);
+        }
+    }
+
+    @keyframes strip_color_red {
+        0% {
+            fill: rgb(180, 0, 0);
+        }
+
+        80% {
+            fill: rgb(255, 0, 0);
+        }
+
+        100% {
+            fill: rgb(255, 0, 0);
+        }
+    }
+
+    @keyframes strip_color_yellow {
+        0% {
+            fill: rgb(205, 205, 0);
+        }
+
+        80% {
+            fill: rgb(255, 255, 0);
+        }
+
+        100% {
+            fill: rgb(255, 255, 0);
+        }
+    }
+
+    @keyframes strip_color_green {
+        0% {
+            fill: rgb(0, 205, 0);
+        }
+
+        80% {
+            fill: rgb(0, 255, 0);
+        }
+
+        100% {
+            fill: rgb(0, 255, 0);
+        }
+    }
+}

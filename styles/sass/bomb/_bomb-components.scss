@@ -1,0 +1,165 @@
+.components {
+    height: 200px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0 20px;
+
+    .cube__face--top &,
+    .cube__face--bottom & {
+        width: 600px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "area1 area2 area3""area4 area5 area6";
+    }
+
+    .cube__face--right &,
+    .cube__face--left & {
+        width: 400px;
+        transform: rotate(-90deg);
+        transform-origin: 200px 200px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "area1 area2""area3 area4";
+    }
+
+    .serial_number {
+        width: 100%;
+        height: 100%;
+
+        > {
+            span {
+                display: block;
+                text-align: center;
+                margin-top: 10px;
+                font-family: 'Cutive Mono', Courier, monospace;
+                font-size: 20px;
+                color: #000000;
+            }
+
+            div {
+                width: 125px;
+                margin: 0 auto;
+
+                >span {
+                    display: block;
+                    text-align: center;
+                    margin-top: 10px;
+                    font-family: 'Cutive Mono', Courier, monospace;
+                    font-size: 30px;
+                    color: #AAAAAA;
+                    background-color: #000000;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+
+    .battery_container,
+    .port_container,
+    .indicator_container {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .indicator_lit,
+    .indicator_unlit {
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        width: 150px;
+        height: 63px;
+    }
+
+    .indicator_lit {
+        background-image: url("../media/bomb_components/indi_lit.svg");
+    }
+
+    .indicator_unlit {
+        background-image: url("../media/bomb_components/indi_unlit.svg");
+    }
+
+    .indicator_label {
+        position: absolute;
+        font-family: 'Cutive Mono', Courier, monospace;
+        font-size: 26px;
+        color: #FFFFFF;
+        left: 47%;
+        top: 35%;
+        left: 87px;
+        top: 35px;
+    }
+
+    .battery {
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+        transform: translate(-50%, -50%) rotate(90deg);
+        left: 50%;
+        top: 50%;
+    }
+
+    .ports {
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+    }
+
+    .battery_container {
+        .b__aa {
+            background-image: url("../media/bomb_components/bat_aa.svg");
+            width: 50px;
+            height: 80px;
+        }
+
+        .b__aa_x2 {
+            background-image: url("../media/bomb_components/bat_2x_aa.svg");
+            width: 60px;
+            height: 80px;
+        }
+
+        .b__d {
+            background-image: url("../media/bomb_components/bat_d.svg");
+            width: 50px;
+            height: 80px;
+        }
+
+        .b__9v {
+            background-image: url("../media/bomb_components/bat_9v.svg");
+            width: 50px;
+            height: 70px;
+        }
+    }
+
+    .port_container {
+        .port__dvi-d {
+            background-image: url("../media/bomb_components/dvi-d.svg");
+            width: 110px;
+            height: 35px;
+        }
+
+        .port__parallel_port {
+            background-image: url("../media/bomb_components/parallel_port.svg");
+            width: 160px;
+            height: 33px;
+        }
+
+        .port__ps-2 {
+            background-image: url("../media/bomb_components/ps-2.svg");
+            width: 40px;
+            height: 40px;
+        }
+
+        .port__stereo-rca {
+            background-image: url("../media/bomb_components/stereo-rca.svg");
+            width: 30px;
+            height: 45px;
+            transform: translate(-50%, -50%) rotate(90deg);
+        }
+
+    }
+}

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135.193 135.398">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #488124;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke: red;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="maze_rings6_grid" transform="translate(-1443 -55)">
+    <rect id="Rectangle_162" data-name="Rectangle 162" class="cls-1" width="135" height="135" transform="translate(1443 55)"/>
+    <g id="Ellipse_46" data-name="Ellipse 46" class="cls-2" transform="translate(1490 144)">
+      <circle class="cls-4" cx="10" cy="10" r="10"/>
+      <circle class="cls-1" cx="10" cy="10" r="9"/>
+    </g>
+    <g id="Ellipse_47" data-name="Ellipse 47" class="cls-2" transform="translate(1532 60)">
+      <circle class="cls-4" cx="10" cy="10" r="10"/>
+      <circle class="cls-1" cx="10" cy="10" r="9"/>
+    </g>
+    <path id="Path_56" data-name="Path 56" class="cls-3" d="M1455.664-689v47.055" transform="translate(13 744)"/>
+    <path id="Path_57" data-name="Path 57" class="cls-3" d="M1430-602.35h25.525" transform="translate(13 744)"/>
+    <path id="Path_58" data-name="Path 58" class="cls-3" d="M1497.5-689v69.006h-42.643" transform="translate(13 744)"/>
+    <path id="Path_59" data-name="Path 59" class="cls-3" d="M1476.178-665.472v86.729" transform="translate(13 744)"/>
+    <path id="Path_60" data-name="Path 60" class="cls-3" d="M1455.664-578.743h42.742V-602.66" transform="translate(13 744)"/>
+    <path id="Path_61" data-name="Path 61" class="cls-3" d="M1498.406-665.472h19.524" transform="translate(13 744)"/>
+    <path id="Path_62" data-name="Path 62" class="cls-3" d="M1539.411-665.472v22.529h-21.895V-553.6" transform="translate(13 744)"/>
+    <path id="Path_63" data-name="Path 63" class="cls-3" d="M1517.93-578.743h21.483" transform="translate(13 744)"/>
+    <path id="Path_64" data-name="Path 64" class="cls-3" d="M1539.411-602.35v-20.824h25.781" transform="translate(13 744)"/>
+  </g>
+</svg>

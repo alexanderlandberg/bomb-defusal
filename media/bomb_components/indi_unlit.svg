@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #afafaf;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        stroke: #888;
+      }
+
+      .cls-3 {
+        fill: #797878;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Unlit_indicator" data-name="Unlit indicator" transform="translate(-42 805)">
+    <g id="Rectangle_59" data-name="Rectangle 59" class="cls-1" transform="translate(42 -805)">
+      <rect class="cls-4" width="120" height="50"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="119" height="49"/>
+    </g>
+    <g id="Rectangle_60" data-name="Rectangle 60" class="cls-2" transform="translate(82 -795)">
+      <rect class="cls-4" width="70" height="30"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="69" height="29"/>
+    </g>
+    <g id="Ellipse_4" data-name="Ellipse 4" class="cls-3" transform="translate(52 -789)">
+      <circle class="cls-4" cx="9" cy="9" r="9"/>
+      <circle class="cls-5" cx="9" cy="9" r="8.5"/>
+    </g>
+  </g>
+</svg>

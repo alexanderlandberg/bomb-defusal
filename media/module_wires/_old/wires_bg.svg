@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 599 599">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #878686;
+      }
+
+      .cls-3 {
+        fill: #444;
+      }
+    </style>
+  </defs>
+  <g id="Group_33" data-name="Group 33" transform="translate(0 -8)">
+    <g id="Group_32" data-name="Group 32">
+      <rect id="Rectangle_72" data-name="Rectangle 72" class="cls-1" width="599" height="599" transform="translate(0 8)"/>
+    </g>
+    <rect id="Rectangle_73" data-name="Rectangle 73" class="cls-2" width="58.7" height="433.9" transform="translate(380.7 145.8)"/>
+    <circle id="Ellipse_23" data-name="Ellipse 23" class="cls-3" cx="18.4" cy="18.4" r="18.4" transform="translate(391.6 155.4)"/>
+    <circle id="Ellipse_24" data-name="Ellipse 24" class="cls-3" cx="18.4" cy="18.4" r="18.4" transform="translate(391.6 230.7)"/>
+    <circle id="Ellipse_25" data-name="Ellipse 25" class="cls-3" cx="18.4" cy="18.4" r="18.4" transform="translate(391.6 306)"/>
+    <circle id="Ellipse_26" data-name="Ellipse 26" class="cls-3" cx="18.4" cy="18.4" r="18.4" transform="translate(391.6 381.3)"/>
+    <circle id="Ellipse_27" data-name="Ellipse 27" class="cls-3" cx="18.4" cy="18.4" r="18.4" transform="translate(391.6 456.7)"/>
+    <circle id="Ellipse_28" data-name="Ellipse 28" class="cls-3" cx="18.4" cy="18.4" r="18.4" transform="translate(391.6 532)"/>
+    <rect id="Rectangle_74" data-name="Rectangle 74" class="cls-2" width="58.7" height="515.8" transform="translate(25.9 63.9)"/>
+    <circle id="Ellipse_29" data-name="Ellipse 29" class="cls-3" cx="18.4" cy="18.4" r="18.4" transform="translate(36.9 79)"/>
+    <circle id="Ellipse_30" data-name="Ellipse 30" class="cls-3" cx="18.4" cy="18.4" r="18.4" transform="translate(36.9 169.6)"/>
+    <circle id="Ellipse_31" data-name="Ellipse 31" class="cls-3" cx="18.4" cy="18.4" r="18.4" transform="translate(36.9 260.2)"/>
+    <circle id="Ellipse_32" data-name="Ellipse 32" class="cls-3" cx="18.4" cy="18.4" r="18.4" transform="translate(36.9 350.8)"/>
+    <circle id="Ellipse_33" data-name="Ellipse 33" class="cls-3" cx="18.4" cy="18.4" r="18.4" transform="translate(36.9 441.4)"/>
+    <circle id="Ellipse_34" data-name="Ellipse 34" class="cls-3" cx="18.4" cy="18.4" r="18.4" transform="translate(36.9 532)"/>
+  </g>
+</svg>

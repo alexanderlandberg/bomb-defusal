@@ -1,0 +1,90 @@
+.wof_container {
+    &>div {
+        position: absolute;
+        text-transform: uppercase;
+        font-family: Courier, monospace;
+        text-align: center;
+    }
+
+    .wof_display {
+        width: 135px;
+        height: 45px;
+        left: 15px;
+        top: 15px;
+        background-color: #000000;
+        color: #FFFFFF;
+        font-size: 25px;
+        line-height: 44px;
+    }
+
+    .wof_text {
+        width: 60px;
+        height: 25px;
+        background-color: #FFFFFF;
+        color: #000000;
+        font-size: 10px;
+        line-height: 25px;
+        cursor: pointer;
+        transition: transform 0.3s linear;
+
+        &:nth-child(2) {
+            left: 15px;
+            top: 80px;
+        }
+
+        &:nth-child(3) {
+            left: 85px;
+            top: 80px;
+        }
+
+        &:nth-child(4) {
+            left: 15px;
+            top: 115px;
+        }
+
+        &:nth-child(5) {
+            left: 85px;
+            top: 115px;
+        }
+
+        &:nth-child(6) {
+            left: 15px;
+            top: 150px;
+        }
+
+        &:nth-child(7) {
+            left: 85px;
+            top: 150px;
+        }
+    }
+
+    .wof_strip {
+        width: 30px;
+        height: 120px;
+        top: 60px;
+        right: 10px;
+        background-color: #000000;
+    }
+
+    .wof_strip_light_1,
+    .wof_strip_light_2,
+    .wof_strip_light_3 {
+        width: 18px;
+        height: 10px;
+        right: 16px;
+        background-color: #CCCCCC;
+
+    }
+
+    .wof_strip_light_1 {
+        top: 160px;
+    }
+
+    .wof_strip_light_2 {
+        top: 140px;
+    }
+
+    .wof_strip_light_3 {
+        top: 120px;
+    }
+}
