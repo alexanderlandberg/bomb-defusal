@@ -901,7 +901,7 @@ svg.button_module .strip_color {
   top: 15px;
   cursor: pointer;
   position: absolute;
-  background-image: url(/media/module_simon/replay_btn.svg);
+  background-image: url(../media/module_simon/replay_btn.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1243,7 +1243,6 @@ svg.button_module .strip_color {
   left: 20px;
   top: 45px;
   padding: 5px;
-  background-image: url(../media/module_maze/maze_rings1_grid.svg);
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;

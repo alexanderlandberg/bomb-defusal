@@ -516,8 +516,7 @@ mazeModule = {
 
             square.style.gridArea = `${currentSquareY} / ${currentSquareX} / 7 / 7`;
             triangle.style.gridArea = `${currentTriangleY} / ${currentTriangleX} / 7 / 7`;
-            mazeRings.style.backgroundImage = `url(../media/module_maze/maze_rings${mazeNumber}.svg)`;
-            //mazeRings.style.backgroundImage = `url(../media/module_maze/maze_rings${mazeNumber}_grid.svg)`;
+            mazeRings.style.backgroundImage = `url(./media/module_maze/maze_rings${mazeNumber}.svg)`;
 
             // Extra randomise if square and triangle are next to each other
             if (Math.abs(currentSquareX - currentTriangleX) <= 1 && Math.abs(currentSquareY - currentTriangleY) <= 1) {
